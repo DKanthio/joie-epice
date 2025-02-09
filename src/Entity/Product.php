@@ -56,7 +56,11 @@ class Product
             $product->setPrice($data['price']);
             $product->setImage($data['image']);
             $product->setDescription($data['description']);
+
             $product->setStock(3);
+
+          
+
             $products[] = $product;
         }
         return $products;
